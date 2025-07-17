@@ -100,7 +100,6 @@ public sealed class Config_Commands
     public List<string> ResetPlayer { get; set; } = [];
     public List<string> ResetDatabase { get; set; } = [];
     public List<string> RefreshPlayersCredits { get; set; } = [];
-    public List<string> HideTrails { get; set; } = [];
     public List<string> PlayerSkinsOff { get; set; } = [];
     public List<string> PlayerSkinsOn { get; set; } = [];
 }

@@ -38,61 +38,7 @@ public static class Event
         Instance.RegisterEventHandler<EventPlayerDisconnect>(OnPlayerDisconnect);
         Instance.RegisterEventHandler<EventPlayerDeath>(OnPlayerDeath);
         Instance.RegisterEventHandler<EventPlayerTeam>(OnPlayerTeam);
-
-        Instance.AddTimer(5.0f, StartCreditsTimer);
     }
-
-    private static void StartCreditsTimer()
-    {
-        if (!Config.Credits.TryGetValue("default", out Config_Credits? defaultCredits) ||
-            defaultCredits.IntervalActiveInActive <= 0)
-            return;
-
-        List<KeyValuePair<string, Config_Credits>> orderedCredits = Config.Credits
-            .Where(x => x.Key != "default" && (x.Value.AmountActive > 0 || x.Value.AmountInActive > 0))
-            .ToList();
-
-        Instance.AddTimer(defaultCredits.IntervalActiveInActive, () =>
-        {
-            if (GameRules.IgnoreWarmUp())
-                return;
-
-            List<CCSPlayerController> players = Utilities.GetPlayers()
-                .Where(p => !p.IsBot)
-                .ToList();
-
-            foreach (CCSPlayerController player in players)
-            {
-                bool granted = orderedCredits.Where(credits => AdminManager.PlayerHasPermissions(player, credits.Key)).Any(credits => GiveCreditsTimer(player, credits.Value.AmountActive, credits.Value.AmountInActive));
-
-                if (!granted)
-                {
-                    GiveCreditsTimer(player, defaultCredits.AmountActive, defaultCredits.AmountInActive);
-                }
-            }
-
-        }, TimerFlags.REPEAT);
-    }
-
-    private static bool GiveCreditsTimer(CCSPlayerController player, int active, int inactive)
-    {
-        switch (player.Team)
-        {
-            case CsTeam.Terrorist:
-            case CsTeam.CounterTerrorist when active > 0:
-                Credits.Give(player, active);
-                player.PrintToChatMessage("credits_earned<active>", active);
-                return true;
-            case CsTeam.Spectator when inactive > 0:
-                Credits.Give(player, inactive);
-                player.PrintToChatMessage("credits_earned<inactive>", inactive);
-                return true;
-            case CsTeam.None:
-            default: return false;
-        }
-    }
-
-
     public static void OnMapStart(string mapname)
     {
         foreach (var module in ItemModuleManager.Modules)
@@ -230,8 +176,6 @@ public static class Event
 
         if (amountKill > 0)
         {
-            Credits.Give(attacker, amountKill);
-            attacker.PrintToChat($"{Config.Settings.Tag}{Instance.Localizer["credits_earned<kill>", amountKill]}");
         }
 
         return HookResult.Continue;

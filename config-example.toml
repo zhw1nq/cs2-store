@@ -1,136 +1,136 @@
 # ─────────────────────────────
-# Store Plugin Configuration
+# Cấu hình Plugin Store
 # ─────────────────────────────
 
 [DatabaseConnection]
-# Hostname or IP address of the MySQL server
+# Tên máy chủ hoặc địa chỉ IP của máy chủ MySQL
 Host = ""
 
-# MySQL server port (usually 3306)
+# Cổng máy chủ MySQL (thường là 3306)
 Port = 3306
 
-# Username for database authentication
+# Tên người dùng để xác thực cơ sở dữ liệu
 User = ""
 
-# Password for database authentication
+# Mật khẩu để xác thực cơ sở dữ liệu
 Pass = ""
 
-# Name of the database to be used
+# Tên của cơ sở dữ liệu được sử dụng
 Name = ""
 
-# Table used to store player data (credits etc.)
+# Bảng được sử dụng để lưu trữ dữ liệu người chơi (credits, v.v.)
 StorePlayersName = "store_players"
 
-# Table used to store the store item data
+# Bảng được sử dụng để lưu trữ dữ liệu vật phẩm
 StoreItemsName = "store_items"
 
-# Table used to store which items players have equipped
+# Bảng được sử dụng để lưu trữ các vật phẩm người chơi đã trang bị
 StoreEquipments = "store_equipments"
 
 # ─────────────────────────────
 
 [Commands]
-# Command aliases that can be used by players. You may add more aliases as needed.
-Credits = [ "credits", "tl" ]
-Store = [ "store", "shop", "market" ]
-Inventory = [ "inv", "inventory" ]
-GiveCredits = [ "givecredits" ]
-Gift = [ "gift" ]
-ResetPlayer = [ "resetplayer" ]
-ResetDatabase = [ "resetdatabase" ]
-RefreshPlayersCredits = [ "refreshcredits" ]
-HideTrails = [ "hidetrails" ]
-PlayerSkinsOff = [ "model0", "modeloff" ]
-PlayerSkinsOn = [ "model1", "modelon" ]
+# Các lệnh thay thế có thể được sử dụng bởi người chơi. Bạn có thể thêm nhiều lệnh khác.
+Credits = [ "xyz834abc", "def012mno" ]
+Store = [ "svip" ]
+Inventory = [ "inv" ]
+GiveCredits = [ "nop234qrs" ]
+Gift = [ "tuv567wxy" ]
+ResetPlayer = [ "zab890cde" ]
+ResetDatabase = [ "fgh123ijk" ]
+RefreshPlayersCredits = [ "lmn456opq" ]
+HideTrails = [ "rst789uvw" ]
+PlayerSkinsOff = [ "xyz012abc", "def345ghi" ]
+PlayerSkinsOn = [ "jkl678mno", "pqr901stu" ]
 
 # ─────────────────────────────
 
 [DefaultModels]
-# Default player models for each team. Leave empty if not used.
-Terrorist = [ "characters/models/tm_leet/tm_leet_variantj.vmdl" ]
-CounterTerrorist = [ "characters/models/ctm_fbi/ctm_fbi_variantb.vmdl" ]
+# Mô hình người chơi mặc định cho mỗi đội. Để trống nếu không sử dụng.
+Terrorist = [ "" ]
+CounterTerrorist = [ "" ]
 
-# If true, disables the legs of default models.
+# Nếu true, vô hiệu hóa chân của các mô hình mặc định.
 DefaultModelDisableLeg = false
 
 # ─────────────────────────────
 
-# Credit earning rules for specific permission groups.
-# High-priority permission entries should be placed above lower ones.
-# Do NOT include 'Start', 'IgnoreWarmup', or 'IntervalActiveInActive' in any group other than "default".
+# Quy tắc nhận credits cho các nhóm quyền cụ thể.
+# Các quyền ưu tiên cao nên được đặt trên các quyền thấp hơn.
+# KHÔNG bao gồm 'Start', 'IgnoreWarmup', hoặc 'IntervalActiveInActive' trong bất kỳ nhóm nào ngoài "default".
 
 [Credits."@css/root"]
-AmountActive = 30      # Credits earned when active
-AmountInActive = 3     # Credits earned when inactive
-AmountKill = 3         # Credits earned per kill
+AmountActive = 0       # Credits nhận được khi hoạt động
+AmountInActive = 0     # Credits nhận được khi không hoạt động
+AmountKill = 3         # Credits nhận được mỗi lần giết
 
-[Credits."@css/vip"]
-AmountActive = 20      # Credits earned when active
-AmountInActive = 2     # Credits earned when inactive
-AmountKill = 2         # Credits earned per kill
+[Credits."@zhw/svipflg"]
+AmountActive = 0       # Credits nhận được khi hoạt động
+AmountInActive = 0     # Credits nhận được khi không hoạt động
+AmountKill = 0         # Credits nhận được mỗi lần giết
 
 [Credits."default"]
-# These fields are ONLY allowed in the "default" group
-Start = 0                     # Starting credit balance for new players
-IgnoreWarmup = true           # If true, disables credit earning during warmup
-IntervalActiveInActive = 60   # The interval (in seconds) at which players earn credits.
-AmountActive = 10             # Credits earned when active
-AmountInActive = 1            # Credits earned when inactive
-AmountKill = 1                # Credits earned per kill
+# Các trường này CHỈ được phép trong nhóm "default"
+Start = 500                     # Số dư credits ban đầu cho người chơi mới
+IgnoreWarmup = true             # Nếu true, vô hiệu hóa nhận credits trong thời gian khởi động
+IntervalActiveInActive = 1999   # Khoảng thời gian (giây) người chơi nhận credits
+AmountActive = 0                # Credits nhận được khi hoạt động
+AmountInActive = 0              # Credits nhận được khi không hoạt động
+AmountKill = 0                  # Credits nhận được mỗi lần giết
 
 # ─────────────────────────────
 
 [Menu]
-# Enables the confirmation menu before finalizing a purchase
+# Bật menu xác nhận trước khi hoàn tất mua hàng
 EnableConfirmMenu = true
 
-# Type of menu interface to use
-# Supported values: ConsoleMenu, ChatMenu, CenterHtmlMenu, WasdMenu, ScreenMenu
-MenuType = "ScreenMenu"
+# Loại giao diện menu sử dụng
+# Các giá trị hỗ trợ: ConsoleMenu, ChatMenu, CenterHtmlMenu, WasdMenu, ScreenMenu
+MenuType = "WasdMenu"
 
-# Users with this flag can equip items without paying
-# Leave empty to disable VIP privileges
-VipFlag = "@css/root"
+# Người dùng có cờ này có thể trang bị vật phẩm mà không cần trả tiền
+# Để trống để vô hiệu hóa đặc quyền VIP
+VipFlag = "@zhw/testerflg"
 
-# Sound to play for positive
-MenuPressSoundYes = ""
+# Âm thanh phát khi xác nhận
+MenuPressSoundYes = "sounds/ui/panorama/lobby_gotinvited.vsnd_c"
 
-# Sound to play for negative
-MenuPressSoundNo = ""
+# Âm thanh phát khi từ chối
+MenuPressSoundNo = "sounds/ui/panorama/lobby_error_01.vsnd_c"
 
-# If false, the menu will remain open until you close it.
+# Nếu false, menu sẽ mở cho đến khi bạn đóng nó
 CloseMenuAfterSelect = false
 
 # ─────────────────────────────
 
 [Settings]
-# Message prefix for store plugin messages (supports color codes like {red}, {green})
-Tag = "{red}[Store]"
+# Tiền tố tin nhắn cho plugin store (hỗ trợ mã màu như {red}, {green})
+Tag = "{gold}7Mau {silver}» "
 
-# Maximum health allowed via store items (0 = infinity)
+# Máu tối đa cho phép thông qua vật phẩm store (0 = vô hạn)
 MaxHealth = 0
 
-# Maximum armor allowed via store items (0 = infinity)
+# Giáp tối đa cho phép thông qua vật phẩm store (0 = vô hạn)
 MaxArmor = 0
 
-# Ratio of credit received when selling an item (e.g., 0.6 = 60% of value)
-SellRatio = 0.6
+# Tỷ lệ credits nhận được khi bán vật phẩm (ví dụ: 0.6 = 60% giá trị)
+SellRatio = 0
 
-# Delay in seconds before a player skin is applied after selection
+# Độ trễ tính bằng giây trước khi áp dụng skin người chơi sau khi chọn
 ApplyPlayerskinDelay = 0.1
 
-# If true, selling returns credit based on the price the player paid
-# If false, selling returns credit based on the current store price
+# Nếu true, bán sẽ trả credits dựa trên giá mà người chơi đã trả
+# Nếu false, bán sẽ trả credits dựa trên giá hiện tại trong store
 SellUsePurchaseCredit = false
 
-# Enables compatibility adjustments for CS2 fixes
+# Bật điều chỉnh tương thích cho CS2 fixes
 EnableCs2Fixes = false
 
 # ─────────────────────────────
 
 [Permissions]
-# Required flag to toggle player model (model0/model1) features
-Model0Model1Flag = "@css/root"
+# Cờ yêu cầu để chuyển đổi tính năng mô hình người chơi (model0/model1)
+Model0Model1Flag = "@zhw/testerflg"
 
-# Required flag to access /givecredits command
-GiveCredits = "@css/root"
+# Cờ yêu cầu để truy cập lệnh /givecredits
+GiveCredits = "@zhw/testerflg"

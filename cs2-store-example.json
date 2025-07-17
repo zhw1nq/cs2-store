@@ -1,305 +1,2478 @@
 {
   "Items": {
-    "FreePlayerSkin": {
-      "CT": {
-        "team": "CounterTerrorist",
-        "Fernandez Frogman [CT]": {
-          "uniqueid": "frogman",
-          "model": "characters/models/ctm_diver/ctm_diver_variantb.vmdl",
-          "armModel": "",
-          "type": "playerskin",
-          "price": "1000",
-          "slot": "3",
-          "disable_leg": "0",
-          "expiration": "0",
-          "hide": "false"
-        }
-      },
-      "T": {
-        "team": "Terrorist",
-        "Number K": {
-          "uniqueid": "numberk",
-          "model": "characters/models/tm_professional/tm_professional_vari.vmdl",
-          "armModel": "",
-          "type": "playerskin",
-          "price": "1000",
-          "slot": "2",
-          "disable_leg": "false",
-          "expiration": "0",
-          "hide": "false"
-        }
-      }
-    },
-    "Admin Player Skins": {
-      "flag": "@css/ban,@css/unban,76561199165718810",
-      "Lieutenant Rex Krikey [ROOT-ALL]": {
-        "uniqueid": "rexkrikey",
-        "model": "characters/models/ctm_diver/ctm_diver_variantc.vmdl",
-        "armModel": "",
-        "type": "playerskin",
-        "price": "1000",
-        "slot": "1",
-        "flag": "@css/root,76561199165718810",
-        "disable_leg": "false",
-        "expiration": "0",
-        "hide": "false"
-      }
-    },
-    "Buy Weapon": {
-      "Deagle": {
-        "uniqueid": "buydeagle",
-        "weapon": "weapon_deagle",
-        "type": "weapon",
-        "price": "1000"
-      },
-      "AK47 [T]": {
-        "uniqueid": "buyak47",
-        "weapon": "weapon_ak47",
-        "type": "weapon",
-        "price": "2000",
-        "team": "2",
-        "no_pistol_round": "true"
-      },
-      "M4A4 [CT]": {
-        "uniqueid": "buym4a4ct",
-        "weapon": "weapon_m4a1",
-        "type": "weapon",
-        "price": "2000",
-        "team": "3",
-        "no_pistol_round": "true"
-      }
-    },
-    "Features": {
-      "Gravity": {
-        "0.1 Gravity": {
-          "uniqueid": "gravity0.1",
-          "type": "gravity",
-          "price": "1",
-          "gravityValue": "0.1"
+    "[F4A] FREE FOR ALL": {
+      "Smoke": {
+        "Random Smoke Color": {
+          "uniqueid": "colorsmoke",
+          "type": "smoke",
+          "price": "0",
+          "slot": "893"
         },
-        "0.2 Gravity": {
-          "uniqueid": "gravity0.2",
-          "type": "gravity",
-          "price": "1000",
-          "gravityValue": "0.2"
-        }
-      },
-      "Speed": {
-        "1.1f Speed 1 Round": {
-          "uniqueid": "speed10",
-          "type": "speed",
-          "price": "1000",
-          "speedValue": "1.1",
-          "speedTimerValue": "0"
+        "Smoke Đỏ": {
+          "uniqueid": "redsmoke",
+          "type": "smoke",
+          "color": "255 0 0",
+          "price": "0",
+          "slot": "893"
         },
-        "5 Sec 1.1f Speed": {
-          "uniqueid": "speed51.1",
-          "type": "speed",
-          "price": "1000",
-          "speedValue": "1.1",
-          "speedTimerValue": "5"
-        }
-      },
-      "Godmode": {
-        "5 Sec Godmode": {
-          "uniqueid": "god5",
-          "type": "godmode",
-          "price": "1000",
-          "godmodeTimerValue": "5"
+        "Smoke Hồng": {
+          "uniqueid": "pinksmoke",
+          "type": "smoke",
+          "color": "255 0 255",
+          "price": "0",
+          "slot": "893"
         },
-        "10 Sec Godmode": {
-          "uniqueid": "god10",
-          "type": "godmode",
-          "price": "1000",
-          "godmodeTimerValue": "10"
+        "Smoke Xanh Lá": {
+          "uniqueid": "greensmoke",
+          "type": "smoke",
+          "color": "102 255 102",
+          "price": "0",
+          "slot": "893"
+        },
+        "Smoke Xanh Dương": {
+          "uniqueid": "bluesmoke",
+          "type": "smoke",
+          "color": "51 153 255",
+          "price": "0",
+          "slot": "893"
+        },
+        "Smoke Vàng": {
+          "uniqueid": "yellowsmoke",
+          "type": "smoke",
+          "color": "255 255 0",
+          "price": "0",
+          "slot": "893"
+        },
+        "Smoke Xanh Trắng": {
+          "uniqueid": "cyansmoke",
+          "type": "smoke",
+          "color": "0 255 255",
+          "price": "0",
+          "slot": "893"
+        },
+        "Smoke Cứt": {
+          "uniqueid": "shitsmoke",
+          "type": "smoke",
+          "color": "102 51 0",
+          "price": "0",
+          "slot": "893"
         }
-      },
-      "Respawn": {
-        "uniqueid": "respawn",
-        "type": "respawn",
-        "price": "1000"
-      },
-      "50 HP": {
-        "uniqueid": "health50",
-        "type": "health",
-        "price": "1000",
-        "healthValue": "50"
-      },
-      "10 Armor": {
-        "uniqueid": "armor10",
-        "type": "armor",
-        "price": "1000",
-        "armorValue": "10"
-      },
-      "Open Doors": {
-        "uniqueid": "open",
-        "type": "open",
-        "price": "1000"
-      },
-      "Sound Thunder": {
-        "uniqueid": "thunderclose",
-        "sound": "sounds/ambient/ambience/rainscapes/thunder_close01.vsnd_c",
-        "type": "sound",
-        "price": "1000"
-      },
-      "Bunnyhop": {
-        "uniqueid": "bunnyhop",
-        "type": "bunnyhop",
-        "price": "1000",
-        "maxSpeed": "320.0"
-      },
-      "Kill yourself": {
-        "uniqueid": "killurself",
-        "type": "link",
-        "link": "kill",
-        "price": "1000"
       }
     },
-    "Smoke": {
-      "Random Smoke Color": {
-        "uniqueid": "colorsmoke",
-        "type": "smoke",
-        "price": "1000",
-        "slot": "1"
+    "[ROOT] Access Files": {
+      "flag": "@zhw/testerflg",
+      "[CT-ROOT] Site": {
+        "[ROOT] Models CT-Site 1": {
+          "Sophina [CT-ROOT]": {
+            "uniqueid": "ctsite:sophina:root",
+            "model": "characters/models/cs2ze/sophina/sophina.vmdl",
+            "armModel": "characters/models/cs2ze/sophina/sophina_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Usec Leefa [CT-ROOT]": {
+            "uniqueid": "ctsite:leefa:root",
+            "model": "characters/models/ub/pm_cat/pm_cat.vmdl",
+            "armModel": "characters/models/ub/pm_cat/arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Ly ca nó [CT-ROOT]": {
+            "uniqueid": "ctsite:lycano:root",
+            "model": "characters/models/nozb1/denhet/zenless_zone_zero/lyncaon/lycaon.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/lycaon/lycaon_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Zhu Yuan ZZZ [CT-ROOT]": {
+            "uniqueid": "ctsite:zhuyanzzz:root",
+            "model": "characters/models/nozb1/denhet/zenless_zone_zero/zhu_yuan/zhu_yuan.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/zhu_yuan/zhu_yuan_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "416 [CT-ROOT]": {
+            "uniqueid": "ctsite:416_model:root",
+            "model": "characters/models/exg/416/416.vmdl",
+            "armModel": "characters/models/exg/416/416_arms_prefab.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Airi Danzai [CT-ROOT]": {
+            "uniqueid": "ctsite:airi_danzai:root",
+            "model": "characters/models/exg/chrisan/airi_danzai/airi_danzai.vmdl",
+            "armModel": "characters/models/exg/chrisan/airi_danzai/airi_danzai_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Mita Cappi [CT-ROOT]": {
+            "uniqueid": "ctsite:mita2:root",
+            "model": "characters/models/kmen/miside/miside_cappie.vmdl",
+            "armModel": "characters/models/kmen/miside/miside_cappie_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Rapi [CT-ROOT]": {
+            "uniqueid": "ctsite:rapi:root",
+            "model": "characters/models/hmn_sk2/nikke/rapi/rapi_sk2model.vmdl",
+            "armModel": "characters/models/hmn_sk2/nikke/rapi/rapi_sk2modelarm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Nyaruki [CT-ROOT]": {
+            "uniqueid": "ctsite:c1:root",
+            "model": "characters/models/upkk/byd_cat/c1/c1.vmdl",
+            "armModel": "characters/models/upkk/byd_cat/c1/arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Aben [CT-ROOT]": {
+            "uniqueid": "ctsite:aebn:root",
+            "model": "characters/models/ub/aebn/aebn.vmdl",
+            "armModel": "characters/models/ub/aebn/aebn_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          }
+        },
+        "[ROOT] Models CT-Site 2": {
+          "Elcia [CT-ROOT]": {
+            "uniqueid": "ctsite:elcia:root",
+            "model": "characters/models/ub/bot04/elcia/elcia.vmdl",
+            "armModel": "characters/models/ub/bot04/elcia/elcia_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Mint [CT-ROOT]": {
+            "uniqueid": "ctsite:misc_mint:root",
+            "model": "characters/models/ub/misc/misc_mint.vmdl",
+            "armModel": "characters/models/ub/misc/misc_mint_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Strinova [CT-ROOT]": {
+            "uniqueid": "ctsite:strinova:root",
+            "model": "characters/models/ub/strinova/strinova_kanami_maid.vmdl",
+            "armModel": "characters/models/ub/strinova/strinova_kanami_maid_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Doro [CT-ROOT]": {
+            "uniqueid": "ctsite:doro2:root",
+            "model": "characters/models/ub/doro2/doro2_playermodel.vmdl",
+            "armModel": "characters/models/ub/doro2/doro2_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Aqua (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:aquamaoer:root",
+            "model": "characters/models/aquamaoer/aquamaoer.vmdl",
+            "armModel": "characters/models/aquamaoer/arms/aquamaoer_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Airi đi ngủ (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:airi_dreaming:root",
+            "model": "characters/models/exg/chrisan/airi_dreaming/airi_dreaming.vmdl",
+            "armModel": "characters/models/exg/chrisan/airi_dreaming/airi_dreaming_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Rurune (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:rurune:root",
+            "model": "characters/models/exg/chrisan/rurune/rurune.vmdl",
+            "armModel": "characters/models/exg/chrisan/rurune/rurune_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Gawr Gura (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:gura:root",
+            "model": "characters/models/hmn_sk2/vtuber/gura/gura_sk2model.vmdl",
+            "armModel": "characters/models/hmn_sk2/vtuber/gura/gura_sk2modelarm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Black Swan (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:black_swan_playermodel:root",
+            "model": "characters/models/ub/black_swan/black_swan_playermodel.vmdl",
+            "armModel": "characters/models/ub/black_swan/black_swan_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Phoebe (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:febi:root",
+            "model": "characters/models/ub/febi/febi.vmdl",
+            "armModel": "characters/models/ub/febi/febi_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Acheron (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:acheron:root",
+            "model": "characters/models/ub/hsr/acheron/hsr_acheron.vmdl",
+            "armModel": "characters/models/ub/hsr/acheron/hsr_acheron_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Xueyi (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:xueyi:root",
+            "model": "characters/models/ub/hsr/xueyi/hsr_xueyi.vmdl",
+            "armModel": "characters/models/ub/hsr/xueyi/hsr_xueyi_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Yukong (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:xueyi:root",
+            "model": "characters/models/ub/hsr/yukong/hsr_yukong.vmdl",
+            "armModel": "characters/models/ub/hsr/yukong/hsr_yukong_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Nix (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:nix:root",
+            "model": "characters/models/ub/nix/nix_playermodel.vmdl",
+            "armModel": "characters/models/ub/nix/nix_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Jane Doe (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:jane_doe:root",
+            "model": "models/nozb1/denhet/zenless_zone_zero/jane_doe/jane_doe.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/jane_doe/jane_doe_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Seth (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:seth:root",
+            "model": "models/nozb1/denhet/zenless_zone_zero/seth/seth.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/seth/seth_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Wise (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:wise:root",
+            "model": "models/nozb1/denhet/zenless_zone_zero/wise/wise.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/wise/wise_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Miyabi (NEW) [CT-ROOT]": {
+            "uniqueid": "ctsite:miyabi:root",
+            "model": "characters/models/kaesar/hoshistar/miyabi/miyabi.vmdl",
+            "armModel": "characters/models/kaesar/hoshistar/miyabi/miyabi_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          }
+        }
       },
-      "Red Smoke": {
-        "uniqueid": "redsmoke",
-        "type": "smoke",
-        "color": "255 0 0",
-        "price": "1000",
-        "slot": "1"
-      }
-    },
-    "Trail": {
-      "Player Trail": {
-        "Energycirc Trail": {
-          "uniqueid": "energycircltrail",
+      "[T-ROOT] Site": {
+        "[ROOT] Models T-Site 1": {
+          "Hung for Luxiie [T-ROOT]": {
+            "uniqueid": "tsite:hung:root",
+            "model": "characters/models/ub/hung/hung.vmdl",
+            "armModel": "characters/models/ub/hung/hung_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Hutao [T-ROOT]": {
+            "uniqueid": "tsite:hutao:root",
+            "model": "characters/models/ub/genshin/genshin_hutao_cherry.vmdl",
+            "armModel": "characters/models/ub/genshin/genshin_hutao_cherry_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Tommy Xiaomi [T-ROOT]": {
+            "uniqueid": "tsite:thomas_shelby:root",
+            "model": "characters/models/nozb1/thomas_shelby_player_model/thomas_shelby_player_model.vmdl",
+            "armModel": "characters/models/nozb1/thomas_shelby_player_model/thomas_shelby_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "GFL2 Lenna [T-ROOT]": {
+            "uniqueid": "tsite:lenna:root",
+            "model": "characters/models/toppi/gfl2/gfl2_lenna_night.vmdl",
+            "armModel": "characters/models/toppi/gfl2/gfl2_lenna_night_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Aru [T-ROOT]": {
+            "uniqueid": "tsite:aru:root",
+            "model": "characters/models/upkk/aru/aru.vmdl",
+            "armModel": "ccharacters/models/upkk/aru/aru_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Ellen Joe [T-ROOT]": {
+            "uniqueid": "tsite:ellen:root",
+            "model": "characters/models/ub/zzz/zzz_ellenjoe_uniform.vmdl",
+            "armModel": "characters/models/ub/zzz/zzz_ellenjoe_uniform_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Grace ZZZ [T-ROOT]": {
+            "uniqueid": "tsite:gracezzz:root",
+            "model": "models/nozb1/denhet/zenless_zone_zero/grace/grace.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/grace/grace_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Nicole ZZZ [T-ROOT]": {
+            "uniqueid": "tsite:nicolezzz:root",
+            "model": "models/nozb1/denhet/zenless_zone_zero/nicole/nicole.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/nicole/nicole_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          }
+        },
+        "[ROOT] Models T-Site 2": {
+          "Kiana [T-ROOT]": {
+            "uniqueid": "tsite:kiana:root",
+            "model": "characters/models/ub/kiana/kiana_playermodel.vmdl",
+            "armModel": "characters/models/ub/kiana/kiana_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Yuexia [T-ROOT]": {
+            "uniqueid": "tsite:yuexia:root",
+            "model": "characters/models/ub/yuexia/yuexia.vmdl",
+            "armModel": "characters/models/ub/yuexia/yuexia_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Yae Miko (NEW) [T-ROOT]": {
+            "uniqueid": "tsite:bcsz:root",
+            "model": "characters/models/hlym/bcsz/bcsz_prefab.vmdl",
+            "armModel": "characters/models/hlym/bcsz/bcsz_arms_prefab.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Enya (NEW) [T-ROOT]": {
+            "uniqueid": "tsite:bcsz:root",
+            "model": "characters/models/ub/dwfa/dwfa_enya.vmdl",
+            "armModel": "characters/models/ub/dwfa/dwfa_enya_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Guinaifen (NEW) [T-ROOT]": {
+            "uniqueid": "tsite:bcsz:root",
+            "model": "characters/models/ub/hsr/guinaifen/hsr_guinaifen.vmdl",
+            "armModel": "characters/models/ub/hsr/guinaifen/hsr_guinaifen_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Topaz (NEW) [T-ROOT]": {
+            "uniqueid": "tsite:topaz:root",
+            "model": "characters/models/ub/hsr/topaz/hsr_topaz.vmdl",
+            "armModel": "characters/models/ub/hsr/topaz/hsr_topaz_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Em gái (NEW) [T-ROOT]": {
+            "uniqueid": "tsite:jiaran:root",
+            "model": "characters/models/ub/jiaran/ja.vmdl",
+            "armModel": "characters/models/ub/jiaran/arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Belle (NEW) [T-ROOT]": {
+            "uniqueid": "tsite:belle:root",
+            "model": "models/nozb1/denhet/zenless_zone_zero/belle/belle.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/belle/belle_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Burnice (NEW) [T-ROOT]": {
+            "uniqueid": "tsite:burnice:root",
+            "model": "models/nozb1/denhet/zenless_zone_zero/burnice/burnice.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/burnice/burnice_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Caesar (NEW) [T-ROOT]": {
+            "uniqueid": "tsite:caesar_king:root",
+            "model": "models/nozb1/denhet/zenless_zone_zero/caesar_king/caesar_king.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/caesar_king/caesar_king_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Rina (NEW) [T-ROOT]": {
+            "uniqueid": "tsite:rina:root",
+            "model": "models/nozb1/denhet/zenless_zone_zero/rina/rina.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/nicole/nicole_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Yanagi (NEW) [T-ROOT]": {
+            "uniqueid": "tsite:yanagi:root",
+            "model": "models/nozb1/denhet/zenless_zone_zero/yanagi/yanagi.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/yanagi/yanagi_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/testerflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          }
+        }
+      },
+      "[TRAIL-ROOT]": {
+        "Player Trail": {
+          "Stars Trail": {
+            "uniqueid": "trail_2_main",
+            "model": "particles/7ychu5/238212_modified/trail_2_main.vpcf",
+            "type": "trail",
+            "price": "1000",
+            "slot": "992",
+            "lifetime": "1.3",
+            "acceptInputValue": "Start",
+            "angleValue": "90 0 0"
+          },
+          "Random color trail": {
+            "uniqueid": "trailrandomcolor",
+            "type": "trail",
+            "price": "1000",
+            "slot": "992",
+            "lifetime": "1.3",
+            "widthValue": "1.0",
+            "color": ""
+          },
+          "Sophina trail": {
+            "uniqueid": "sophina_trail",
+            "model": "particles/7ychu5/models/sophina/l_bracelet_main.vpcf",
+            "type": "trail",
+            "price": "1000",
+            "slot": "992",
+            "lifetime": "1.3",
+            "widthValue": "1.0",
+            "color": ""
+          }
+        },
+        "Đuôi lựu đạn": {
+          "Hiệu ứng điện 1": {
+            "uniqueid": "molotovfire01",
+            "model": "models/weapons/exg/tokyocold/sheshen/fx/huimie_electric.vpcf",
+            "type": "grenadetrail",
+            "price": "1000",
+            "slot": "991",
+            "acceptInputValue": "Start"
+          },
+          "Hiệu ứng điện 2": {
+            "uniqueid": "huimie_cs2",
+            "model": "models/weapons/exg/tokyocold/huimie_cs2/px/huimie_electric.vpcf",
+            "type": "grenadetrail",
+            "price": "1000",
+            "slot": "991",
+            "acceptInputValue": "Start"
+          },
+          "Hiệu ứng Wibu": {
+            "uniqueid": "238212",
+            "model": "particles/7ychu5/238212/trail_1_main.vpcf",
+            "type": "grenadetrail",
+            "price": "1000",
+            "slot": "991",
+            "acceptInputValue": "Start"
+          },
+          "Hiệu ứng Đóm Xanh": {
+            "uniqueid": "bkph_r_shoot_main",
+            "model": "models/weapons/exg/tokyocold/sheshen/fx/bkph_r_shoot_main.vpcf",
+            "type": "grenadetrail",
+            "price": "1000",
+            "slot": "991",
+            "acceptInputValue": "Start"
+          },
+          "Hiệu ứng Sophina": {
+            "uniqueid": "sophina",
+            "model": "particles/7ychu5/models/sophina/l_bracelet_main.vpcf",
+            "type": "grenadetrail",
+            "price": "1000",
+            "slot": "991",
+            "acceptInputValue": "Start"
+          }
+        }
+      },
+      "[TRACER-ROOT]": {
+        "Energycirc Tracer": {
+          "uniqueid": "energycirctracer:root",
           "model": "particles/ui/status_levels/ui_status_level_8_energycirc.vpcf",
-          "type": "trail",
+          "type": "tracer",
           "price": "1000",
-          "slot": "1",
-          "lifetime": "1.3",
-          "acceptInputValue": "Start",
-          "angleValue": "90 0 0"
+          "slot": "990",
+          "lifetime": "0.3",
+          "acceptInputValue": "Start"
         },
-        "Random color trail": {
-          "uniqueid": "trailrandomcolor",
-          "type": "trail",
+        "Thor Tracer": {
+          "uniqueid": "csol_thor:root",
+          "model": "particles/7ychu5/weapons/slot1/csol_thor/break_main.vpcf",
+          "type": "tracer",
           "price": "1000",
-          "slot": "1",
-          "lifetime": "1.3",
-          "widthValue": "1.0",
-          "color": ""
-        },
-        "Green color trail": {
-          "uniqueid": "trailgreencolor",
-          "type": "trail",
-          "price": "1000",
-          "slot": "1",
-          "lifetime": "1.3",
-          "widthValue": "1.0",
-          "color": "0 255 0"
-        }
-      },
-      "Grenade Trail": {
-        "Molotov effect": {
-          "uniqueid": "molotovfire01",
-          "model": "particles/inferno_fx/molotov_fire01.vpcf",
-          "type": "grenadetrail",
-          "price": "1000",
-          "slot": "1",
+          "slot": "990",
+          "lifetime": "0.3",
           "acceptInputValue": "Start"
         }
       }
     },
-    "Tracer": {
-      "Energycirc Tracer": {
-        "uniqueid": "energycirctracer",
-        "model": "particles/ui/status_levels/ui_status_level_8_energycirc.vpcf",
-        "type": "tracer",
-        "price": "1000",
-        "slot": "1",
-        "lifetime": "0.3",
-        "acceptInputValue": "Start"
+    "[SVIP] New Models": {
+      "flag": "@zhw/svipflg",
+      "[CT-SVIP] Site": {
+        "Nhóm Models CT-Site 1": {
+          "Usec Leefa [CT-SVIP]": {
+            "uniqueid": "ctsite:leefa:svip",
+            "model": "characters/models/ub/pm_cat/pm_cat.vmdl",
+            "armModel": "characters/models/ub/pm_cat/arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Zhu Yuan ZZZ [CT-SVIP]": {
+            "uniqueid": "ctsite:zhuyanzzz:svip",
+            "model": "characters/models/nozb1/denhet/zenless_zone_zero/zhu_yuan/zhu_yuan.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/zhu_yuan/zhu_yuan_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "416 [CT-SVIP]": {
+            "uniqueid": "ctsite:416_model:svip",
+            "model": "characters/models/exg/416/416.vmdl",
+            "armModel": "characters/models/exg/416/416_arms_prefab.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Airi Danzai [CT-SVIP]": {
+            "uniqueid": "ctsite:airi_danzai:svip",
+            "model": "characters/models/exg/chrisan/airi_danzai/airi_danzai.vmdl",
+            "armModel": "characters/models/exg/chrisan/airi_danzai/airi_danzai_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Mita Cappi [CT-SVIP]": {
+            "uniqueid": "ctsite:mita2:svip",
+            "model": "characters/models/kmen/miside/miside_cappie.vmdl",
+            "armModel": "characters/models/kmen/miside/miside_cappie_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Rapi [CT-SVIP]": {
+            "uniqueid": "ctsite:rapi:svip",
+            "model": "characters/models/hmn_sk2/nikke/rapi/rapi_sk2model.vmdl",
+            "armModel": "characters/models/hmn_sk2/nikke/rapi/rapi_sk2modelarm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Gojo [CT-SVIP]": {
+            "uniqueid": "ctsite:gojo:svip",
+            "model": "characters/models/kolka/satoru/satoru.vmdl",
+            "armModel": "characters/models/kolka/satoru/satoru_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Nyaruki [CT-SVIP]": {
+            "uniqueid": "ctsite:c1:svip",
+            "model": "characters/models/upkk/byd_cat/c1/c1.vmdl",
+            "armModel": "characters/models/upkk/byd_cat/c1/arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          }
+        },
+        "Nhóm Models CT-Site 2": {
+          "Aben [CT-SVIP]": {
+            "uniqueid": "ctsite:aebn:svip",
+            "model": "characters/models/ub/aebn/aebn.vmdl",
+            "armModel": "characters/models/ub/aebn/aebn_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Elcia [CT-SVIP]": {
+            "uniqueid": "ctsite:elcia:svip",
+            "model": "characters/models/ub/bot04/elcia/elcia.vmdl",
+            "armModel": "characters/models/ub/bot04/elcia/elcia_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Mint [CT-SVIP]": {
+            "uniqueid": "ctsite:misc_mint:svip",
+            "model": "characters/models/ub/misc/misc_mint.vmdl",
+            "armModel": "characters/models/ub/misc/misc_mint_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Strinova [CT-SVIP]": {
+            "uniqueid": "ctsite:strinova:svip",
+            "model": "characters/models/ub/strinova/strinova_kanami_maid.vmdl",
+            "armModel": "characters/models/ub/strinova/strinova_kanami_maid_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Doro [CT-SVIP]": {
+            "uniqueid": "ctsite:doro2:svip",
+            "model": "characters/models/ub/doro2/doro2_playermodel.vmdl",
+            "armModel": "characters/models/ub/doro2/doro2_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "3",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          }
+        }
+      },
+      "[T-SVIP] Site": {
+        "Nhóm Models T-Site 1": {
+          "Hutao [T-SVIP]": {
+            "uniqueid": "tsite:hutao:svip",
+            "model": "characters/models/ub/genshin/genshin_hutao_cherry.vmdl",
+            "armModel": "characters/models/ub/genshin/genshin_hutao_cherry_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Tommy Xiaomi [T-SVIP]": {
+            "uniqueid": "tsite:thomas_shelby:svip",
+            "model": "characters/models/nozb1/thomas_shelby_player_model/thomas_shelby_player_model.vmdl",
+            "armModel": "characters/models/nozb1/thomas_shelby_player_model/thomas_shelby_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "GFL2 Lenna [T-SVIP]": {
+            "uniqueid": "tsite:lenna:svip",
+            "model": "characters/models/toppi/gfl2/gfl2_lenna_night.vmdl",
+            "armModel": "characters/models/toppi/gfl2/gfl2_lenna_night_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Aru [T-SVIP]": {
+            "uniqueid": "tsite:aru:svip",
+            "model": "characters/models/upkk/aru/aru.vmdl",
+            "armModel": "ccharacters/models/upkk/aru/aru_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Grace ZZZ [T-SVIP]": {
+            "uniqueid": "tsite:gracezzz:svip",
+            "model": "models/nozb1/denhet/zenless_zone_zero/grace/grace.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/grace/grace_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Nicole ZZZ [T-SVIP]": {
+            "uniqueid": "tsite:nicolezzz:svip",
+            "model": "models/nozb1/denhet/zenless_zone_zero/nicole/nicole.vmdl",
+            "armModel": "models/nozb1/denhet/zenless_zone_zero/nicole/nicole_arm.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          }
+        },
+        "Nhóm Models T-Site 2": {
+          "Kiana [T-SVIP]": {
+            "uniqueid": "tsite:kiana:svip",
+            "model": "characters/models/ub/kiana/kiana_playermodel.vmdl",
+            "armModel": "characters/models/ub/kiana/kiana_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          },
+          "Yuexia [T-SVIP]": {
+            "uniqueid": "tsite:yuexia:svip",
+            "model": "characters/models/ub/yuexia/yuexia.vmdl",
+            "armModel": "characters/models/ub/yuexia/yuexia_arms.vmdl",
+            "type": "playerskin",
+            "price": "0",
+            "slot": "2",
+            "flag": "@zhw/svipflg",
+            "disable_leg": "false",
+            "expiration": "0",
+            "hide": "false"
+          }
+        }
       }
     },
-    "Colored Skin": {
-      "Random coloredskin": {
-        "uniqueid": "coloredskin_random",
-        "type": "coloredskin",
-        "price": "1000",
-        "slot": "1"
+    "[SVIP] Weapons": {
+      "flag": "@zhw/svipflg",
+      "Pistols": {
+        "Desert Eagle": {
+          "Nhóm Desert Eagle - 1": {
+            "Deagle Mari V1": {
+              "uniqueid": "weapon_deagle:deagle",
+              "viewmodel": "weapons/kxnrl/deagle/mari/deagle_v.vmdl",
+              "worldmodel": "weapons/kxnrl/deagle/mari/deagle_w.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/deagle.webp",
+              "weapon": "weapon_deagle",
+              "price": "0",
+              "slot": "14",
+              "displayname": "Deagle Mari V1"
+            },
+            "Wingman": {
+              "uniqueid": "weapon_deagle:wingman",
+              "viewmodel": "weapons/models/ub/wingman/wingman.vmdl",
+              "worldmodel": "weapons/models/ub/wingman/w_wingman.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/wingman.webp",
+              "weapon": "weapon_deagle",
+              "price": "0",
+              "slot": "14",
+              "displayname": "Wingman"
+            },
+            "Chibi Mari": {
+              "uniqueid": "weapon_deagle:ba_mari",
+              "viewmodel": "models/weapons/exg/tokyocold/ba_mari/ba_mari.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/ba_mari/w_ba_mari.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/ba_mari.webp",
+              "weapon": "weapon_deagle",
+              "price": "0",
+              "slot": "14",
+              "displayname": "Chibi Mari"
+            },
+            "Deagle Mari V2": {
+              "uniqueid": "weapon_deagle:deagle_mari",
+              "viewmodel": "models/weapons/exg/tokyocold/deagle_mari/v_deagle_mari.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/deagle_mari/w_deagle_mari.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/deagle_mari.webp",
+              "weapon": "weapon_deagle",
+              "price": "0",
+              "slot": "14",
+              "displayname": "Deagle Mari V2"
+            },
+            "Chibi Mari Idol": {
+              "uniqueid": "weapon_deagle:mari_idol",
+              "viewmodel": "models/weapons/exg/tokyocold/mari_idol/mari_idol.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/mari_idol/w_mari_idol.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/mari_idol.webp",
+              "weapon": "weapon_deagle",
+              "price": "0",
+              "slot": "14",
+              "displayname": "Chibi Mari Idol"
+            }
+          },
+          "Nhóm Desert Eagle - 2": {}
+        },
+        "Glock-18": {
+          "Nhóm Glock-18 - 1": {
+            "QSZ-92": {
+              "uniqueid": "weapon_glock:fiveseven",
+              "viewmodel": "weapons/kxnrl/fiveseven/golden_glow/fiveseven_v.vmdl",
+              "worldmodel": "weapons/kxnrl/fiveseven/golden_glow/fiveseven_w.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/fiveseven.webp",
+              "weapon": "weapon_glock",
+              "price": "0",
+              "slot": "15",
+              "displayname": "QSZ-92"
+            },
+            "M1911": {
+              "uniqueid": "weapon_glock:p250",
+              "viewmodel": "weapons/kxnrl/p250/hanya/p250_v.vmdl",
+              "worldmodel": "weapons/kxnrl/p250/hanya/p250_w.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/p250.webp",
+              "weapon": "weapon_glock",
+              "price": "0",
+              "slot": "15",
+              "displayname": "M1911"
+            },
+            "Glock Music-Box": {
+              "uniqueid": "weapon_glock:glockmb",
+              "viewmodel": "weapons/models/ub/glockmb/glockmb.vmdl",
+              "worldmodel": "weapons/models/ub/glockmb/glockmb.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/glockmb.webp",
+              "weapon": "weapon_glock",
+              "price": "0",
+              "slot": "15",
+              "displayname": "Glock Music-Box"
+            },
+            "Glock Hakui": {
+              "uniqueid": "weapon_glock:hakui",
+              "viewmodel": "weapons/models/ub/hakui/hakui.vmdl",
+              "worldmodel": "weapons/models/ub/hakui/hakui.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/hakui.webp",
+              "weapon": "weapon_glock",
+              "price": "0",
+              "slot": "15",
+              "displayname": "Glock Hakui"
+            },
+            "Glock Subaru": {
+              "uniqueid": "weapon_glock:subaru",
+              "viewmodel": "weapons/models/ub/subaru/subaru.vmdl",
+              "worldmodel": "weapons/models/ub/subaru/subaru.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/subaru.webp",
+              "weapon": "weapon_glock",
+              "price": "0",
+              "slot": "15",
+              "displayname": "Glock Subaruuuuuuuuu"
+            },
+            "Cop CF": {
+              "uniqueid": "weapon_glock:cop",
+              "viewmodel": "models/weapons/exg/tokyocold/cop/v_cop.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/cop/w_cop.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/cop.webp",
+              "weapon": "weapon_glock",
+              "price": "0",
+              "slot": "15",
+              "displayname": "Cop CF"
+            }
+          },
+          "Nhóm Glock-18 - 2": {}
+        },
+        "USP-S": {
+          "Nhóm USP-S - 1": {
+            "Mike-2011": {
+              "uniqueid": "weapon_usp_silencer:w_l4d2_codmw22_mike2011_solo",
+              "viewmodel": "weapons/7ychu5/l4d2_codmw22_mike2011/v_l4d2_codmw22_mike2011_solo.vmdl",
+              "worldmodel": "weapons/7ychu5/l4d2_codmw22_mike2011/w_l4d2_codmw22_mike2011_solo.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/l4d2_codmw22_mike2011_solo.webp",
+              "weapon": "weapon_usp_silencer",
+              "price": "0",
+              "slot": "8",
+              "displayname": "Mike-2011"
+            },
+            "Chibi Seia": {
+              "uniqueid": "weapon_usp_silencer:ba_shengya",
+              "viewmodel": "models/weapons/exg/tokyocold/ba_shengya/ba_shengya.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/ba_shengya/w_ba_shengya.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/ba_shengya.webp",
+              "weapon": "weapon_usp_silencer",
+              "price": "0",
+              "slot": "8",
+              "displayname": "Chibi Seia"
+            },
+            "Chibi Kayoko": {
+              "uniqueid": "weapon_usp_silencer:jiadaizi",
+              "viewmodel": "models/weapons/exg/tokyocold/jiadaizi/jiadaizi.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/jiadaizi/w_jiadaizi.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/jiadaizi.webp",
+              "weapon": "weapon_usp_silencer",
+              "price": "0",
+              "slot": "8",
+              "displayname": "USP Kayoko"
+            },
+            "P890 Blue": {
+              "uniqueid": "weapon_usp_silencer:p890_sywh",
+              "viewmodel": "models/weapons/exg/tokyocold/p890/v_p890_sywh.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/p890/w_p890_sywh.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/p890_sywh.webp",
+              "weapon": "weapon_usp_silencer",
+              "price": "0",
+              "slot": "8",
+              "displayname": "P890 Blue"
+            },
+            "P890 Pink": {
+              "uniqueid": "weapon_usp_silencer:p890_1",
+              "viewmodel": "models/weapons/exg/tokyocold/p890_1/v_p890_1.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/p890_1/w_p890_1.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/p890_1.webp",
+              "weapon": "weapon_usp_silencer",
+              "price": "0",
+              "slot": "8",
+              "displayname": "P890 Pink"
+            }
+          },
+          "Nhóm USP-S - 2": {
+            "P890 Lucia": {
+              "uniqueid": "weapon_usp_silencer:lucia",
+              "viewmodel": "weapons/kxnrl/usp/lucia/usp_v.vmdl",
+              "worldmodel": "weapons/kxnrl/usp/lucia/usp_w.vmdl",
+              "type": "customweapon",
+              "img": "",
+              "weapon": "weapon_usp_silencer",
+              "price": "0",
+              "slot": "8",
+              "displayname": "P890 Pink"
+            }
+          }
+        },
+        "Dual Berettas": {
+          "Nhóm Dual Berettas - 1": {
+            "Dual Mike-2011": {
+              "uniqueid": "weapon_elite:l4d2_codmw22_mike2011_dual",
+              "viewmodel": "weapons/7ychu5/l4d2_codmw22_mike2011/v_l4d2_codmw22_mike2011_dual.vmdl",
+              "worldmodel": "weapons/7ychu5/l4d2_codmw22_mike2011/w_l4d2_codmw22_mike2011_dual.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/l4d2_codmw22_mike2011_dual.webp",
+              "weapon": "weapon_elite",
+              "price": "0",
+              "slot": "7",
+              "displayname": "Dual Mike-2011"
+            },
+            "Dual P890": {
+              "uniqueid": "weapon_elite:dual_p890",
+              "viewmodel": "models/weapons/exg/tokyocold/dual_p890/v_dual_p890.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/dual_p890/v_dual_p890.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/dual_p890.webp",
+              "weapon": "weapon_elite",
+              "price": "0",
+              "slot": "7",
+              "displayname": "Dual P890"
+            }
+          },
+          "Nhóm Dual Berettas - 2": {}
+        },
+        "P2000": {
+          "Nhóm P2000 - 1": {},
+          "Nhóm P2000 - 2": {}
+        },
+        "P250": {
+          "Nhóm P250 - 1": {},
+          "Nhóm P250 - 2": {}
+        },
+        "Five-SeveN": {
+          "Nhóm Five-SeveN - 1": {},
+          "Nhóm Five-SeveN - 2": {}
+        },
+        "Tec-9": {
+          "Nhóm Tec-9 - 1": {},
+          "Nhóm Tec-9 - 2": {}
+        },
+        "CZ75-Auto": {
+          "Nhóm CZ75-Auto - 1": {},
+          "Nhóm CZ75-Auto - 2": {}
+        },
+        "R8 Revolver": {
+          "Nhóm R8 Revolver - 1": {},
+          "Nhóm R8 Revolver - 2": {}
+        }
       },
-      "Green coloredskin": {
-        "uniqueid": "coloredskin_green",
-        "type": "coloredskin",
-        "price": "1000",
-        "slot": "1",
-        "color": "0 255 0"
+      "SMGs": {
+        "P90": {
+          "Nhóm P90 - 1": {
+            "FMG-9 Doro": {
+              "uniqueid": "weapon_p90:l4d2_fmg9_doro",
+              "viewmodel": "weapons/7ychu5/l4d2_fmg9_doro/v_l4d2_fmg9_doro.vmdl",
+              "worldmodel": "weapons/7ychu5/l4d2_fmg9_doro/w_l4d2_fmg9_doro.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/l4d2_fmg9_doro.webp",
+              "weapon": "weapon_p90",
+              "price": "0",
+              "slot": "10",
+              "displayname": "FMG-9 Doro"
+            },
+            "PP-Bizon Zaomeng": {
+              "uniqueid": "weapon_p90:pp29_zaomeng",
+              "viewmodel": "weapons/models/zaomengpp29/v_pp29_zaomeng.vmdl",
+              "worldmodel": "weapons/models/zaomengpp29/w_pp29_zaomeng.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/pp29_zaomeng.webp",
+              "weapon": "weapon_p90",
+              "price": "0",
+              "slot": "10",
+              "displayname": "PP-Bizon Zaomeng"
+            },
+            "Dual Mắt Quỷ": {
+              "uniqueid": "weapon_p90:deatheye_vlolet",
+              "viewmodel": "models/weapons/exg/tokyocold/deatheye_nanoblue/v_deatheye_vlolet.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/deatheye_nanoblue/w_deatheye_vlolet.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/deatheye_vlolet.webp",
+              "weapon": "weapon_p90",
+              "price": "0",
+              "slot": "10",
+              "displayname": "Dual Mắt Quỷ"
+            },
+            "Em gái P90": {
+              "uniqueid": "weapon_p90:p90jr",
+              "viewmodel": "models/weapons/exg/tokyocold/p90jr/p90jr.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/p90jr/p90jr.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/p90jr.webp",
+              "weapon": "weapon_p90",
+              "price": "0",
+              "slot": "10",
+              "displayname": "Em gái P90"
+            }
+          },
+          "Nhóm P90 - 2": {}
+        },
+        "MAC-10": {
+          "Nhóm MAC-10 - 1": {
+            "Uzi": {
+              "uniqueid": "weapon_mac10:weapon_l4d2_codmw3_uzi",
+              "viewmodel": "weapons/7ychu5/l4d2_codmw3_uzi/v_weapon_l4d2_codmw3_uzi.vmdl",
+              "worldmodel": "weapons/7ychu5/l4d2_codmw3_uzi/w_weapon_l4d2_codmw3_uzi.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/weapon_l4d2_codmw3_uzi.webp",
+              "weapon": "weapon_mac10",
+              "price": "0",
+              "slot": "9",
+              "displayname": "Uzi"
+            },
+            "MAC-10 Bronya": {
+              "uniqueid": "weapon_mac10:mac10_blny",
+              "viewmodel": "models/weapons/exg/tokyocold/mac10_blny/v_mac10_blny.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/mac10_blny/w_mac10_blny.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/mac10_blny.webp",
+              "weapon": "weapon_mac10",
+              "price": "0",
+              "slot": "9",
+              "displayname": "MAC-10 Bronya"
+            },
+            "MAC-10 Miku": {
+              "uniqueid": "weapon_mac10:mikumac",
+              "viewmodel": "weapons/models/ub/mikumac/mikumac.vmdl",
+              "worldmodel": "weapons/models/ub/mikumac/w_mikumac.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/mac10_blny.webp",
+              "weapon": "weapon_mac10",
+              "price": "0",
+              "slot": "9",
+              "displayname": "MAC-10 Bronya"
+            }
+          },
+          "Nhóm MAC-10 - 2": {}
+        },
+        "MP9": {
+          "Nhóm MP9 - 1": {
+            "Chibi Izuna": {
+              "uniqueid": "weapon_mp9:ba_quannai",
+              "viewmodel": "models/weapons/exg/tokyocold/ba_quannai/ba_quannai.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/ba_quannai/w_ba_quannai.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/ba_quannai.webp",
+              "weapon": "weapon_mp9",
+              "price": "0",
+              "slot": "16",
+              "displayname": "Chibi Izuna"
+            },
+            "MP9 Jack97": {
+              "uniqueid": "weapon_mp9:cmaz_mp9",
+              "viewmodel": "models/weapons/exg/tokyocold/cmaz_mp9/cmaz_mp9.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/cmaz_mp9/w_cmaz_mp9.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/cmaz_mp9.webp",
+              "weapon": "weapon_mp9",
+              "price": "0",
+              "slot": "16",
+              "displayname": "MP9 Jack97"
+            },
+            "MP9 7-Màu": {
+              "uniqueid": "weapon_mp9:mp9s_cod",
+              "viewmodel": "models/weapons/exg/tokyocold/mp9s_cod/mp9s_cod.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/mp9s_cod/w_mp9s_cod.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/mp9s_cod.webp",
+              "weapon": "weapon_mp9",
+              "price": "0",
+              "slot": "16",
+              "displayname": "MP9 7-Màu"
+            },
+            "Chibi Ushio Noa": {
+              "uniqueid": "weapon_mp9:nuoya",
+              "viewmodel": "models/weapons/exg/tokyocold/nuoya/nuoya.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/nuoya/w_nuoya.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/nuoya.webp",
+              "weapon": "weapon_mp9",
+              "price": "0",
+              "slot": "16",
+              "displayname": "Chibi Ushio Noa"
+            },
+            "Mắt Quỷ Chibi": {
+              "uniqueid": "weapon_mp9:ste_hd",
+              "viewmodel": "models/weapons/exg/tokyocold/ste_hd/ste_hd.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/ste_hd/w_ste_hd.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/ste_hd.webp",
+              "weapon": "weapon_mp9",
+              "price": "0",
+              "slot": "16",
+              "displayname": "Mắt Quỷ Chibi"
+            }
+          },
+          "Nhóm MP9 - 2": {}
+        },
+        "MP5-SD": {
+          "Nhóm MP5-SD - 1": {
+            "ACR": {
+              "uniqueid": "weapon_mp5_sd:acr",
+              "viewmodel": "weapons/exg/seven/acr/acr.vmdl",
+              "worldmodel": "weapons/exg/seven/acr/w_acr.vmdl",
+              "type": "customweapon",
+              "weapon": "weapon_mp5_sd",
+              "price": "0",
+              "slot": "13"
+            },
+            "Chibi Shiroko": {
+              "uniqueid": "weapon_mp5_sd:baizi",
+              "viewmodel": "models/weapons/exg/tokyocold/baizi/baizi.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/baizi/w_baizi.vmdl",
+              "type": "customweapon",
+              "weapon": "weapon_mp5_sd",
+              "price": "0",
+              "slot": "13"
+            },
+            "Hemlok Rebelbiker": {
+              "uniqueid": "weapon_mp5_sd:hemlok_rebelbiker",
+              "viewmodel": "models/weapons/exg/tokyocold/hemlok_rebelbiker/hemlok_rebelbiker.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/hemlok_rebelbiker/w_hemlok_rebelbiker.vmdl",
+              "type": "customweapon",
+              "weapon": "weapon_mp5_sd",
+              "price": "0",
+              "slot": "13"
+            },
+            "ISO-45": {
+              "uniqueid": "weapon_mp5_sd:iso45",
+              "viewmodel": "models/weapons/exg/tokyocold/iso45/v_iso45.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/iso45/w_iso45.vmdl",
+              "type": "customweapon",
+              "weapon": "weapon_mp5_sd",
+              "price": "0",
+              "slot": "13"
+            },
+            "Chibi Yuuka": {
+              "uniqueid": "weapon_mp5_sd:youxian",
+              "viewmodel": "models/weapons/exg/tokyocold/youxian/youxian.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/youxian/w_youxian.vmdl",
+              "type": "customweapon",
+              "weapon": "weapon_mp5_sd",
+              "price": "0",
+              "slot": "13"
+            },
+            "Pinkco": {
+              "uniqueid": "weapon_mp5_sd:youxian",
+              "viewmodel": "weapons/models/ub/pinkco/pinkco.vmdl",
+              "worldmodel": "weapons/models/ub/pinkco/w_pinkco.vmdl",
+              "type": "customweapon",
+              "weapon": "weapon_mp5_sd",
+              "price": "0",
+              "slot": "13"
+            }
+          },
+          "Nhóm MP5-SD - 2": {}
+        },
+        "MP7": {
+          "Nhóm MP7 - 1": {},
+          "Nhóm MP7 - 2": {}
+        },
+        "UMP-45": {
+          "Nhóm UMP-45 - 1": {},
+          "Nhóm UMP-45 - 2": {}
+        },
+        "PP-Bizon": {
+          "Nhóm PP-Bizon - 1": {},
+          "Nhóm PP-Bizon - 2": {}
+        }
+      },
+      "Rifles": {
+        "AK-47": {
+          "Nhóm AK-47 - 1": {
+            "Chibi Shiroko": {
+              "uniqueid": "weapon_ak47:l4d2_bluearchive_shiroko",
+              "viewmodel": "weapons/7ychu5/l4d2_bluearchive_shiroko/v_l4d2_bluearchive_shiroko.vmdl",
+              "worldmodel": "weapons/7ychu5/l4d2_bluearchive_shiroko/w_l4d2_bluearchive_shiroko.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/l4d2_bluearchive_shiroko.webp",
+              "weapon": "weapon_ak47",
+              "price": "0",
+              "slot": "1",
+              "displayname": "AK47 Shiroko"
+            },
+            "Chibi Kokona": {
+              "uniqueid": "weapon_ak47:l4d2_doll_kokona",
+              "viewmodel": "weapons/7ychu5/l4d2_doll_kokona/v_l4d2_doll_kokona.vmdl",
+              "worldmodel": "weapons/7ychu5/l4d2_doll_kokona/w_l4d2_doll_kokona.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/l4d2_doll_kokona.webp",
+              "weapon": "weapon_ak47",
+              "price": "0",
+              "slot": "1",
+              "displayname": "Chibi Kokona"
+            },
+            "AK-47 Starchasm": {
+              "uniqueid": "weapon_ak47:ak47",
+              "viewmodel": "weapons/kxnrl/ak47/starchasm/ak47_v.vmdl",
+              "worldmodel": "weapons/kxnrl/ak47/starchasm/ak47_w.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/ak47.webp",
+              "weapon": "weapon_ak47",
+              "price": "0",
+              "slot": "1",
+              "displayname": "AK-47 Starchasm"
+            }
+          },
+          "Nhóm AK-47 - 2": {
+            "AK Beast": {
+              "uniqueid": "weapon_ak47:ak47_beast",
+              "viewmodel": "models/weapons/exg/tokyocold/ak47_beast/v_ak47_beast.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/ak47_beast/w_ak47_beast.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/ak47_beast.webp",
+              "weapon": "weapon_ak47",
+              "price": "0",
+              "slot": "1",
+              "displayname": "AK Beast"
+            },
+            "Chibi Shirasu Azusa": {
+              "uniqueid": "weapon_ak47:baizhouz",
+              "viewmodel": "models/weapons/exg/tokyocold/baizhouz/baizhouz.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/baizhouz/w_baizhouz.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/baizhouz.webp",
+              "weapon": "weapon_ak47",
+              "price": "0",
+              "slot": "1",
+              "displayname": "Chibi Shirasu Azusa"
+            },
+            "AK-47 Svip": {
+              "uniqueid": "weapon_ak47:cf_wuying",
+              "viewmodel": "models/weapons/exg/tokyocold/cf_wuying/cf_wuying.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/cf_wuying/w_cf_wuying.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/cf_wuying.webp",
+              "weapon": "weapon_ak47",
+              "price": "0",
+              "slot": "1",
+              "displayname": "AK-47 Svip"
+            },
+            "AK Gamo": {
+              "uniqueid": "weapon_ak47:gamo",
+              "viewmodel": "models/weapons/exg/tokyocold/gamo/gamo.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/gamo/w_gamo.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/gamo.webp",
+              "weapon": "weapon_ak47",
+              "price": "0",
+              "slot": "1",
+              "displayname": "AK Gamo"
+            },
+            "Chibi Hina": {
+              "uniqueid": "weapon_ak47:hina_lifu_ak",
+              "viewmodel": "models/weapons/exg/tokyocold/hina_lifu_ak/hina_lifu_ak.vmdl",
+              "worldmodel": "weapons/models/ak47/weapon_rif_ak47.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/hina_lifu_ak.webp",
+              "weapon": "weapon_ak47",
+              "price": "0",
+              "slot": "1",
+              "displayname": "Chibi Hina"
+            }
+          }
+        },
+        "M4A4": {
+          "Nhóm M4A4 - 1": {
+            "Chibi Ibuki": {
+              "uniqueid": "weapon_m4a1:l4d2_doll_ibuki",
+              "viewmodel": "weapons/7ychu5/_hoshics/slot1/l4d2_doll_ibuki/v_l4d2_doll_ibuki.vmdl",
+              "worldmodel": "weapons/7ychu5/_hoshics/slot1/l4d2_doll_ibuki/w_l4d2_doll_ibuki.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/l4d2_doll_ibuki.webp",
+              "weapon": "weapon_m4a1",
+              "price": "0",
+              "slot": "3",
+              "displayname": "Chibi Ibuki"
+            },
+            "MG-36 Miku": {
+              "uniqueid": "weapon_m4a1:l4d2_codmw19_mg36_miku",
+              "viewmodel": "weapons/7ychu5/l4d2_codmw19_mg36_miku/v_l4d2_codmw19_mg36_miku.vmdl",
+              "worldmodel": "weapons/7ychu5/l4d2_codmw19_mg36_miku/w_l4d2_codmw19_mg36_miku.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/l4d2_codmw19_mg36_miku.webp",
+              "weapon": "weapon_m4a1",
+              "price": "0",
+              "slot": "3",
+              "displayname": "MG-36 Miku"
+            },
+            "Maho-192": {
+              "uniqueid": "weapon_m4a1:maho192",
+              "viewmodel": "weapons/models/ub/maho192/maho192.vmdl",
+              "worldmodel": "weapons/models/ub/maho192/w_maho192.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/maho192.webp",
+              "weapon": "weapon_m4a1",
+              "price": "0",
+              "slot": "3",
+              "displayname": "Maho-192"
+            },
+            "Maho-192 Blue": {
+              "uniqueid": "weapon_m4a1:maho192_blue",
+              "viewmodel": "weapons/models/ub/maho192/maho192_blue.vmdl",
+              "worldmodel": "weapons/models/ub/maho192/w_maho192_blue.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/maho192_blue.webp",
+              "weapon": "weapon_m4a1",
+              "price": "0",
+              "slot": "3",
+              "displayname": "Maho-192 Blue"
+            },
+            "Chibi Hanako": {
+              "uniqueid": "weapon_m4a1:ba_huazi",
+              "viewmodel": "models/weapons/exg/tokyocold/ba_huazi/ba_huazi.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/ba_huazi/w_ba_huazi.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/ba_huazi.webp",
+              "weapon": "weapon_m4a1",
+              "price": "0",
+              "slot": "3",
+              "displayname": "Chibi Hanako"
+            },
+            "Chibi Utazumi": {
+              "uniqueid": "weapon_m4a1:ba_yingzi",
+              "viewmodel": "models/weapons/exg/tokyocold/ba_yingzi/ba_yingzi.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/ba_yingzi/w_ba_yingzi.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/ba_yingzi.webp",
+              "weapon": "weapon_m4a1",
+              "price": "0",
+              "slot": "3",
+              "displayname": "Chibi Utazumi"
+            },
+            "JAK": {
+              "uniqueid": "weapon_m4a1:jak_sy",
+              "viewmodel": "models/weapons/exg/tokyocold/jak_sy/jak_sy.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/jak_sy/w_jak_sy.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/jak_sy.webp",
+              "weapon": "weapon_m4a1",
+              "price": "0",
+              "slot": "3",
+              "displayname": "JAK"
+            },
+            "M4-MO": {
+              "uniqueid": "weapon_m4a1:m4mo",
+              "viewmodel": "models/weapons/exg/tokyocold/m4mo/m4mo.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/m4mo/w_m4mo.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/m4mo.webp",
+              "weapon": "weapon_m4a1",
+              "price": "0",
+              "slot": "3",
+              "displayname": "M4-MO"
+            },
+            "M4A1 Tranformer": {
+              "uniqueid": "weapon_m4a1:transformers_m4a1",
+              "viewmodel": "models/weapons/exg/tokyocold/transformers_m4a1/v_transformers_m4a1.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/transformers_m4a1/w_transformers_m4a1.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/transformers_m4a1.webp",
+              "weapon": "weapon_m4a1",
+              "price": "0",
+              "slot": "3",
+              "displayname": "M4A1 Tranformer"
+            },
+            "M4A1 Tranformer Gold": {
+              "uniqueid": "weapon_m4a1:transformers_m4a1_gold",
+              "viewmodel": "models/weapons/exg/tokyocold/transformers_m4a1/v_transformers_m4a1_gold.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/transformers_m4a1/w_transformers_m4a1_gold.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/transformers_m4a1_gold.webp",
+              "weapon": "weapon_m4a1",
+              "price": "0",
+              "slot": "3",
+              "displayname": "M4A1 Tranformer Gold"
+            }
+          },
+          "Nhóm M4A4 - 2": {}
+        },
+        "M4A1-S": {
+          "Nhóm M4A1-S - 1": {
+            "Krig6 Rococo": {
+              "uniqueid": "weapon_m4a1_silencer:l4d2_codbo6_krig6_rococo",
+              "viewmodel": "weapons/7ychu5/l4d2_codbo6_krig6_rococo/v_l4d2_codbo6_krig6_rococo.vmdl",
+              "worldmodel": "weapons/7ychu5/l4d2_codbo6_krig6_rococo/w_l4d2_codbo6_krig6_rococo.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/l4d2_codbo6_krig6_rococo.webp",
+              "weapon": "weapon_m4a1_silencer",
+              "price": "0",
+              "slot": "6",
+              "displayname": "Krig6 Rococo"
+            },
+            "ICR": {
+              "uniqueid": "weapon_m4a1_silencer:icr",
+              "viewmodel": "weapons/exg/seven/icr/icr.vmdl",
+              "worldmodel": "weapons/exg/seven/icr/w_icr.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/icr.webp",
+              "weapon": "weapon_m4a1_silencer",
+              "price": "0",
+              "slot": "6",
+              "displayname": "ICR"
+            },
+            "Remington Ren": {
+              "uniqueid": "weapon_m4a1_silencer:remington_ren",
+              "viewmodel": "weapons/models/remington_ren/v_remington_ren.vmdl",
+              "worldmodel": "weapons/models/remington_ren/w_remington_ren.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/remington_ren.webp",
+              "weapon": "weapon_m4a1_silencer",
+              "price": "0",
+              "slot": "6",
+              "displayname": "Remington Ren"
+            },
+            "M4A1-S Sơn Phong": {
+              "uniqueid": "weapon_m4a1_silencer:sjwdm4",
+              "viewmodel": "weapons/models/ub/sjwdm4/sjwdm4.vmdl",
+              "worldmodel": "weapons/models/ub/sjwdm4/w_sjwdm4.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/sjwdm4.webp",
+              "weapon": "weapon_m4a1_silencer",
+              "price": "0",
+              "slot": "6",
+              "displayname": "M4A1-S Sơn Phong"
+            },
+            "M4A1-S Sơn Băng": {
+              "uniqueid": "weapon_m4a1_silencer:sjwdm4_2",
+              "viewmodel": "weapons/models/ub/sjwdm4/sjwdm4_2.vmdl",
+              "worldmodel": "weapons/models/ub/sjwdm4/w_sjwdm4_2.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/sjwdm4_2.webp",
+              "weapon": "weapon_m4a1_silencer",
+              "price": "0",
+              "slot": "6",
+              "displayname": "M4A1-S Sơn Băng"
+            },
+            "M4A1-S Svip": {
+              "uniqueid": "weapon_m4a1_silencer:upangd",
+              "viewmodel": "weapons/models/ub/upan/upangd.vmdl",
+              "worldmodel": "weapons/models/ub/upan/w_upangd.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/upangd.webp",
+              "weapon": "weapon_m4a1_silencer",
+              "price": "0",
+              "slot": "6",
+              "displayname": "M4A1-S Svip"
+            },
+            "Chibi Misono Mika": {
+              "uniqueid": "weapon_m4a1_silencer:sywh",
+              "viewmodel": "models/weapons/exg/tokyocold/sywh/sywh.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/sywh/w_sywh.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/sywh.webp",
+              "weapon": "weapon_m4a1_silencer",
+              "price": "0",
+              "slot": "6",
+              "displayname": "Chibi Misono Mika"
+            }
+          },
+          "Nhóm M4A1-S - 2": {
+            "M4A1-S StarChasm": {
+              "uniqueid": "weapon_m4a1_silencer:starchasm",
+              "viewmodel": "weapons/kxnrl/m4a1/starchasm/m4a1_v.vmdl",
+              "worldmodel": "weapons/kxnrl/m4a1/starchasm/m4a1_w.vmdl",
+              "type": "customweapon",
+              "img": "",
+              "weapon": "weapon_m4a1_silencer",
+              "price": "0",
+              "slot": "6",
+              "displayname": "Chibi Misono Mika"
+            }
+          }
+        },
+        "FAMAS": {
+          "Nhóm FAMAS - 1": {},
+          "Nhóm FAMAS - 2": {}
+        },
+        "Galil AR": {
+          "Nhóm Galil AR - 1": {},
+          "Nhóm Galil AR - 2": {}
+        },
+        "AUG": {
+          "Nhóm AUG - 1": {},
+          "Nhóm AUG - 2": {}
+        },
+        "SG 553": {
+          "Nhóm SG 553 - 1": {},
+          "Nhóm SG 553 - 2": {}
+        }
+      },
+      "Sniper": {
+        "AWP": {
+          "Nhóm AWP - 1": {
+            "XM-109": {
+              "uniqueid": "weapon_awp:l4d2_codbo6_xm109",
+              "viewmodel": "weapons/7ychu5/_hoshics/slot1/l4d2_codbo6_xm109/v_l4d2_codbo6_xm109.vmdl",
+              "worldmodel": "weapons/7ychu5/_hoshics/slot1/l4d2_codbo6_xm109/w_l4d2_codbo6_xm109.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/l4d2_codbo6_xm109.webp",
+              "weapon": "weapon_awp",
+              "price": "0",
+              "slot": "2",
+              "displayname": "XM-109"
+            },
+            "Signal-50 Cal": {
+              "uniqueid": "weapon_awp:l4d2_codmw22_signal50_al1s",
+              "viewmodel": "weapons/7ychu5/l4d2_codmw22_signal50_al1s/v_l4d2_codmw22_signal50_al1s.vmdl",
+              "worldmodel": "weapons/7ychu5/l4d2_codmw22_signal50_al1s/w_l4d2_codmw22_signal50_al1s.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/l4d2_codmw22_signal50_al1s.webp",
+              "weapon": "weapon_awp",
+              "price": "0",
+              "slot": "2",
+              "displayname": "Signal-50 Cal"
+            },
+            "Awp Bóng Tối": {
+              "uniqueid": "weapon_awp:snipu",
+              "viewmodel": "models/awp/snipu.vmdl",
+              "worldmodel": "models/awp/snipu.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/snipu.webp",
+              "weapon": "weapon_awp",
+              "price": "0",
+              "slot": "2",
+              "displayname": "Awp Bóng Tối"
+            },
+            "Chibi Alice": {
+              "uniqueid": "weapon_awp:alisi",
+              "viewmodel": "models/weapons/exg/tokyocold/alisi/alisi.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/alisi/w_alisi.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/alisi.webp",
+              "weapon": "weapon_awp",
+              "price": "0",
+              "slot": "2",
+              "displayname": "Chibi Alice"
+            }
+          },
+          "Nhóm AWP - 2": {
+            "FREEDOM Printstream": {
+              "uniqueid": "weapon_awp:freedom",
+              "viewmodel": "models/weapons/exg/tokyocold/freedom/freedom_awp_b.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/freedom/w_freedom_awp_a.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/freedom.webp",
+              "weapon": "weapon_awp",
+              "price": "0",
+              "slot": "2",
+              "displayname": "FREEDOM Printstream"
+            },
+            "FREEDOM Printstream 2": {
+              "uniqueid": "weapon_awp:freedom2",
+              "viewmodel": "models/weapons/exg/tokyocold/freedom/v_freedom.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/freedom/w_freedom.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/freedom.webp",
+              "weapon": "weapon_awp",
+              "price": "0",
+              "slot": "2",
+              "displayname": "FREEDOM Printstream"
+            },
+            "AWP Miku": {
+              "uniqueid": "weapon_awp:lw3_miku",
+              "viewmodel": "models/weapons/exg/tokyocold/lw3_miku/lw3_miku.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/lw3_miku/w_lw3_miku.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/lw3_miku.webp",
+              "weapon": "weapon_awp",
+              "price": "0",
+              "slot": "2",
+              "displayname": "AWP Miku"
+            },
+            "Barret BornBeast": {
+              "uniqueid": "weapon_awp:m82a1_bornbeast",
+              "viewmodel": "models/weapons/exg/tokyocold/m82a1_bornbeast/v_m82a1_bornbeast.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/m82a1_bornbeast/w_m82a1_bornbeast.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/m82a1_bornbeast.webp",
+              "weapon": "weapon_awp",
+              "price": "0",
+              "slot": "2",
+              "displayname": "Barret BornBeast"
+            }
+          }
+        },
+        "SSG 08": {
+          "Nhóm SSG 08 - 1": {
+            "Chibi Haruhara Shun": {
+              "uniqueid": "weapon_ssg08:chunyuanshun",
+              "viewmodel": "models/weapons/exg/tokyocold/chunyuanshun/chunyuanshun.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/chunyuanshun/w_chunyuanshun.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/chunyuanshun.webp",
+              "weapon": "weapon_ssg08",
+              "price": "0",
+              "slot": "12",
+              "displayname": "Chibi Haruhara Shun"
+            },
+            "DM-10": {
+              "uniqueid": "weapon_ssg08:dm10",
+              "viewmodel": "models/weapons/exg/tokyocold/dm10/dm10.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/dm10/w_dm10.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/dm10.webp",
+              "weapon": "weapon_ssg08",
+              "price": "0",
+              "slot": "12",
+              "displayname": "DM-10"
+            },
+            "Chibi Miyu": {
+              "uniqueid": "weapon_ssg08:meiyou",
+              "viewmodel": "models/weapons/exg/tokyocold/meiyou/meiyou.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/meiyou/w_meiyou.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/meiyou.webp",
+              "weapon": "weapon_ssg08",
+              "price": "0",
+              "slot": "12",
+              "displayname": "Chibi Miyu"
+            },
+            "SKS": {
+              "uniqueid": "weapon_ssg08:sks",
+              "viewmodel": "models/weapons/exg/tokyocold/sks/v_sks.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/sks/w_sks.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/sks.webp",
+              "weapon": "weapon_ssg08",
+              "price": "0",
+              "slot": "12",
+              "displayname": "SKS"
+            }
+          },
+          "Nhóm SSG 08 - 2": {}
+        },
+        "SCAR-20": {
+          "Nhóm SCAR-20 - 1": {},
+          "Nhóm SCAR-20 - 2": {}
+        },
+        "G3SG1": {
+          "Nhóm G3SG1 - 1": {},
+          "Nhóm G3SG1 - 2": {}
+        }
+      },
+      "Grenades": {
+        "HE Grenade": {
+          "Nhóm HE Grenade - 1": {
+            "Nade Doro": {
+              "uniqueid": "weapon_hegrenade:apex_thermite_doro",
+              "viewmodel": "weapons/7ychu5/apex_thermite_doro/v_apex_thermite_doro.vmdl",
+              "worldmodel": "weapons/7ychu5/apex_thermite_doro/w_apex_thermite_doro.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/apex_thermite_doro.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Nade Doro V2"
+            },
+            "Labrynth Knight": {
+              "uniqueid": "weapon_hegrenade:labrynth_knight",
+              "viewmodel": "weapons/7ychu5/labrynth_knight/v_labrynth_knight.vmdl",
+              "worldmodel": "weapons/7ychu5/labrynth_knight/v_labrynth_knight.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/labrynth_knight.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Labrynth Knight"
+            },
+            "RTK-4090": {
+              "uniqueid": "weapon_hegrenade:rtx4090_ausu",
+              "viewmodel": "weapons/exg/ruiyi_welkin/rtx4090/rtx4090_ausu.vmdl",
+              "worldmodel": "weapons/exg/ruiyi_welkin/rtx4090/rtx4090_ausu.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/rtx4090_ausu.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "RTK-4090"
+            },
+            "Điện Thoại": {
+              "uniqueid": "weapon_hegrenade:smart_phone_cs2",
+              "viewmodel": "weapons/hmn/grenade/smart_phone/smart_phone_cs2.vmdl",
+              "worldmodel": "weapons/hmn/grenade/smart_phone/smart_phone_cs2.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/smart_phone_cs2.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Điện Thoại"
+            },
+            "Creeper Minecraft": {
+              "uniqueid": "weapon_hegrenade:he_creepergirl",
+              "viewmodel": "weapons/models/exg/he_creepergirl/he_creepergirl.vmdl",
+              "worldmodel": "weapons/models/exg/he_creepergirl/w_he_creepergirl.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/he_creepergirl.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Creeper Minecraft"
+            },
+            "Bia Hà Nội": {
+              "uniqueid": "weapon_hegrenade:huojinvmodels",
+              "viewmodel": "weapons/models/exg/pullingcans/huojin.vmdl",
+              "worldmodel": "weapons/models/exg/pullingcans/huojin.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/huojinvmodels.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Bia Hà Nội"
+            },
+            "Bia Sài Gòn": {
+              "uniqueid": "weapon_hegrenade:laoda",
+              "viewmodel": "weapons/models/exg/pullingcans/laoda.vmdl",
+              "worldmodel": "weapons/models/exg/pullingcans/laoda.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/laoda.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Bia Sài Gòn"
+            },
+            "Bia 333": {
+              "uniqueid": "weapon_hegrenade:yoxi",
+              "viewmodel": "weapons/models/exg/pullingcans/yoxi.vmdl",
+              "worldmodel": "weapons/models/exg/pullingcans/yoxi.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/yoxi.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Bia 333"
+            },
+            "Smol Gura": {
+              "uniqueid": "weapon_hegrenade:smolgrenade",
+              "viewmodel": "weapons/models/exg/smolgrenade/smolgrenade.vmdl",
+              "worldmodel": "weapons/models/exg/smolgrenade/smolgrenade.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/smolgrenade.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Smol Gura"
+            }
+          },
+          "Nhóm HE Grenade - 2": {
+            "Fumo": {
+              "uniqueid": "weapon_hegrenade:sparklebomb",
+              "viewmodel": "weapons/models/exg/sparklebomb/sparklebomb.vmdl",
+              "worldmodel": "weapons/models/exg/sparklebomb/sparklebomb.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/sparklebomb.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Fumo"
+            },
+            "Doro Grenade": {
+              "uniqueid": "weapon_hegrenade:doro",
+              "viewmodel": "weapons/models/ub/doro/doro.vmdl",
+              "worldmodel": "weapons/models/ub/doro/doro.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/doro.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Doro Grenade"
+            },
+            "Jinx": {
+              "uniqueid": "weapon_hegrenade:jinx",
+              "viewmodel": "weapons/models/ub/jinx/jinx.vmdl",
+              "worldmodel": "weapons/models/ub/jinx/jinx.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/jinx.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Jinx"
+            },
+            "Smol Nade 1": {
+              "uniqueid": "weapon_hegrenade:smolgrenade2",
+              "viewmodel": "weapons/models/ub/smolgrenade/smolgrenade2.vmdl",
+              "worldmodel": "weapons/models/ub/smolgrenade/smolgrenade2.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/smolgrenade2.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Smol Nade 2"
+            },
+            "Smol Nade 2": {
+              "uniqueid": "weapon_hegrenade:smolgrenade3",
+              "viewmodel": "weapons/models/ub/smolgrenade/smolgrenade3.vmdl",
+              "worldmodel": "weapons/models/ub/smolgrenade/smolgrenade3.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/smolgrenade3.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Smol Nade 3"
+            },
+            "TNT Craft": {
+              "uniqueid": "weapon_hegrenade:tnt",
+              "viewmodel": "weapons/models/ub/tnt/tnt.vmdl",
+              "worldmodel": "weapons/models/ub/tnt/tnt.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/tnt.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "TNT Craft"
+            },
+            "Nade Jack97": {
+              "uniqueid": "weapon_hegrenade:cmaz_he",
+              "viewmodel": "models/weapons/exg/tokyocold/cmaz_he/cmaz_he.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/cmaz_he/w_cmaz_he.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/cmaz_he.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Nade Jack97"
+            },
+            "Cocacola": {
+              "uniqueid": "weapon_hegrenade:cola_he",
+              "viewmodel": "models/weapons/exg/tokyocold/cola_he/v_cola_he.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/cola_he/w_cola_he.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/cola_he.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Cocacola"
+            },
+            "Chibi Maki": {
+              "uniqueid": "weapon_hegrenade:xiaoji_he",
+              "viewmodel": "models/weapons/exg/tokyocold/xiaoji_he/xiaoji_he.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/xiaoji_he/w_xiaoji_he.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/xiaoji_he.webp",
+              "weapon": "weapon_hegrenade",
+              "price": "0",
+              "slot": "5",
+              "displayname": "Chibi Maki"
+            }
+          }
+        },
+        "Flashbang": {
+          "Nhóm Flashbang - 1": {
+            "Flash Music-Box": {
+              "uniqueid": "weapon_flashbang:mbice",
+              "viewmodel": "weapons/models/ub/mbice/mbice.vmdl",
+              "worldmodel": "weapons/models/ub/mbice/mbice.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/mbice.webp",
+              "weapon": "weapon_flashbang",
+              "price": "0",
+              "slot": "19",
+              "displayname": "Flash Music-Box"
+            }
+          },
+          "Nhóm Flashbang - 2": {}
+        },
+        "Smoke Grenade": {
+          "Nhóm Smoke Grenade - 1": {
+            "Smoke Frozen": {
+              "uniqueid": "weapon_smokegrenade:bfsmoke",
+              "viewmodel": "weapons/models/ub/bfsmoke/bfsmoke.vmdl",
+              "worldmodel": "weapons/models/ub/bfsmoke/bfsmoke.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/bfsmoke.webp",
+              "weapon": "weapon_smokegrenade",
+              "price": "0",
+              "slot": "17",
+              "displayname": "Smoke Frozen"
+            },
+            "Vape": {
+              "uniqueid": "weapon_smokegrenade:rsp_sl",
+              "viewmodel": "models/weapons/exg/tokyocold/rsp_sl/rsp_sl.vmdl",
+              "worldmodel": "models/weapons/exg/tokyocold/rsp_sl/w_rsp_sl.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/rsp_sl.webp",
+              "weapon": "weapon_smokegrenade",
+              "price": "0",
+              "slot": "17",
+              "displayname": "Vape"
+            }
+          },
+          "Nhóm Smoke Grenade - 2": {}
+        },
+        "Molotov": {
+          "Nhóm Molotov - 1": {
+            "Molotov Kotobukiya": {
+              "uniqueid": "weapon_molotov:l4d2_molotov_ijntaiho",
+              "viewmodel": "weapons/7ychu5/l4d2_molotov_ijntaiho/l4d2_molotov_ijntaiho.vmdl",
+              "worldmodel": "weapons/7ychu5/l4d2_molotov_ijntaiho/l4d2_molotov_ijntaiho.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/l4d2_molotov_ijntaiho.webp",
+              "weapon": "weapon_molotov",
+              "price": "0",
+              "slot": "11",
+              "displayname": "Molotov Kotobukiya"
+            }
+          },
+          "Nhóm Molotov - 2": {}
+        },
+        "Incendiary": {
+          "Nhóm Incendiary - 1": {
+            "Axit": {
+              "uniqueid": "weapon_incendiarygrenade:du",
+              "viewmodel": "weapons/models/ub/du/du.vmdl",
+              "worldmodel": "weapons/models/ub/du/du.vmdl",
+              "type": "customweapon",
+              "img": "https://storage.7-mau.com/guns/webp/du.webp",
+              "weapon": "weapon_incendiarygrenade",
+              "price": "0",
+              "slot": "18",
+              "displayname": "Axit"
+            }
+          },
+          "Nhóm Incendiary - 2": {}
+        },
+        "Decoy": {
+          "Nhóm Decoy - 1": {},
+          "Nhóm Decoy - 2": {}
+        }
+      },
+      "Knife": {
+        "Nhóm Knife - 1": {
+          "Karambit Doro": {
+            "uniqueid": "weapon_knife:apex_karambit_cosmicmerc_doro",
+            "viewmodel": "weapons/7ychu5/apex_karambit_cosmicmerc_doro/v_apex_karambit_cosmicmerc_doro.vmdl",
+            "worldmodel": "weapons/7ychu5/apex_karambit_cosmicmerc_doro/w_apex_karambit_cosmicmerc_doro.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/apex_karambit_cosmicmerc_doro.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Karambit Doro"
+          },
+          "Quạt Arana": {
+            "uniqueid": "weapon_knife:l4d2_apex_aranaclaw",
+            "viewmodel": "weapons/7ychu5/l4d2_apex_aranaclaw/v_l4d2_apex_aranaclaw.vmdl",
+            "worldmodel": "weapons/7ychu5/l4d2_apex_aranaclaw/w_l4d2_apex_aranaclaw.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/l4d2_apex_aranaclaw.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Quạt Arana"
+          },
+          "Quạt Chise": {
+            "uniqueid": "weapon_knife:l4d2_apex_aranaclaw_chise",
+            "viewmodel": "weapons/7ychu5/l4d2_apex_aranaclaw_chise/v_l4d2_apex_aranaclaw_chise.vmdl",
+            "worldmodel": "weapons/7ychu5/l4d2_apex_aranaclaw_chise/w_l4d2_apex_aranaclaw_chise.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/l4d2_apex_aranaclaw_chise.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Quạt Chise"
+          },
+          "Quạt Miku": {
+            "uniqueid": "weapon_knife:l4d2_apex_aranaclaw_miku_1",
+            "viewmodel": "weapons/7ychu5/l4d2_apex_aranaclaw_miku/v_l4d2_apex_aranaclaw_miku_1.vmdl",
+            "worldmodel": "weapons/7ychu5/l4d2_apex_aranaclaw_miku/w_l4d2_apex_aranaclaw_miku.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/l4d2_apex_aranaclaw_miku_1.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Quạt Miku"
+          },
+          "Dual Katana Miku": {
+            "uniqueid": "weapon_knife:l4d2_codbo6_katanas_miku",
+            "viewmodel": "weapons/7ychu5/l4d2_codbo6_katanas_miku/l4d2_codbo6_katanas_miku.vmdl",
+            "worldmodel": "weapons/7ychu5/l4d2_codbo6_katanas_miku/l4d2_codbo6_katanas_miku_w.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/l4d2_codbo6_katanas_miku.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Dual Katana Miku"
+          },
+          "CF Axe": {
+            "uniqueid": "weapon_knife:l4d2_crossfire_axe",
+            "viewmodel": "weapons/7ychu5/l4d2_crossfire_axe/v_l4d2_crossfire_axe.vmdl",
+            "worldmodel": "weapons/7ychu5/l4d2_crossfire_axe/w_l4d2_crossfire_axe.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/l4d2_crossfire_axe.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "CF Axe"
+          },
+          "Katana Nano": {
+            "uniqueid": "weapon_knife:l4d2_katana_567",
+            "viewmodel": "weapons/7ychu5/l4d2_katana_567/v_l4d2_katana_567.vmdl",
+            "worldmodel": "weapons/7ychu5/l4d2_katana_567/w_l4d2_katana_567.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/l4d2_katana_567.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Katana Nano"
+          },
+          "Kunai Miku": {
+            "uniqueid": "weapon_knife:l4d2_knife_tannhauser_miku",
+            "viewmodel": "weapons/7ychu5/l4d2_knife_tannhauser_miku/v_l4d2_knife_tannhauser_miku.vmdl",
+            "worldmodel": "weapons/7ychu5/l4d2_knife_tannhauser_miku/w_l4d2_knife_tannhauser_miku.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/l4d2_knife_tannhauser_miku.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Kunai Miku"
+          }
+        },
+        "Nhóm Knife - 2": {
+          "Phóng lợn Hầu Gái": {
+            "uniqueid": "weapon_knife:alian_bigger_weapon",
+            "viewmodel": "weapons/kaesar/hoshistar/ailian_weapon/v_alian_bigger_weapon.vmdl",
+            "worldmodel": "weapons/kaesar/hoshistar/ailian_weapon/w_alian_bigger_weapon.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/alian_bigger_weapon.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Phóng lợn Hầu Gái"
+          },
+          "Cái chảo": {
+            "uniqueid": "weapon_knife:pan",
+            "viewmodel": "weapons/models/ub/pan/pan.vmdl",
+            "worldmodel": "weapons/models/ub/pan/w_pan.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/pan.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Cái chảo"
+          },
+          "Con cá": {
+            "uniqueid": "weapon_knife:saltedfish",
+            "viewmodel": "weapons/models/ub/saltedfish/saltedfish.vmdl",
+            "worldmodel": "weapons/models/ub/saltedfish/saltedfish.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/saltedfish.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Con cá"
+          },
+          "Cúp Kim Cương": {
+            "uniqueid": "weapon_knife:sword_dim",
+            "viewmodel": "models/pickaxe/pickaxe.vmdl",
+            "worldmodel": "models/pickaxe/weapon_knife_default_t.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/sword_dim.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Kiếm Kim Cương"
+          }
+        },
+        "Nhóm Knife - 3": {
+          "Dao Jack97": {
+            "uniqueid": "weapon_knife:cmaz_hd",
+            "viewmodel": "models/weapons/exg/tokyocold/cmaz_hd/cmaz_hd.vmdl",
+            "worldmodel": "models/weapons/exg/tokyocold/cmaz_hd/w_cmaz_hd.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/cmaz_hd.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Dao Jack97"
+          },
+          "Boxing": {
+            "uniqueid": "weapon_knife:cod_fist",
+            "viewmodel": "models/weapons/exg/tokyocold/cod_fist/cod_fist.vmdl",
+            "worldmodel": "models/weapons/exg/tokyocold/cod_fist/cod_fist.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/cod_fist.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Boxing"
+          },
+          "Crypto": {
+            "uniqueid": "weapon_knife:crypto",
+            "viewmodel": "models/weapons/exg/tokyocold/crypto/crypto.vmdl",
+            "worldmodel": "models/weapons/exg/tokyocold/crypto/w_crypto.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/crypto.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Crypto"
+          },
+          "Katana Plasma": {
+            "uniqueid": "weapon_knife:katana_denglizi",
+            "viewmodel": "models/weapons/exg/tokyocold/katana_denglizi/v_katana_denglizi.vmdl",
+            "worldmodel": "models/weapons/exg/tokyocold/katana_denglizi/w_katana_denglizi.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/katana_denglizi.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Katana Plasma"
+          },
+          "Quạt Mari": {
+            "uniqueid": "weapon_knife:loba_mari",
+            "viewmodel": "models/weapons/exg/tokyocold/loba_mari/loba_mari.vmdl",
+            "worldmodel": "models/weapons/exg/tokyocold/loba_mari/w_loba_mari.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/loba_mari.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Quạt Mari"
+          },
+          "Quắm VIP": {
+            "uniqueid": "weapon_knife:niboer",
+            "viewmodel": "models/weapons/exg/tokyocold/niboer/v_niboer.vmdl",
+            "worldmodel": "models/weapons/exg/tokyocold/niboer/w_niboer.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/niboer.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Quắm VIP"
+          },
+          "Xẻng VIP": {
+            "uniqueid": "weapon_knife:qingtian",
+            "viewmodel": "models/weapons/exg/tokyocold/qingtian/v_qingtian.vmdl",
+            "worldmodel": "models/weapons/exg/tokyocold/qingtian/w_qingtian.vmdl",
+            "type": "customweapon",
+            "img": "https://storage.7-mau.com/guns/webp/qingtian.webp",
+            "weapon": "weapon_knife",
+            "price": "0",
+            "slot": "4",
+            "displayname": "Xẻng VIP"
+          }
+        }
+      },
+      "Zeus x27": {
+        "Nhóm Zeus x27 - 1": {},
+        "Nhóm Zeus x27 - 2": {}
       }
     },
-    "Custom Weapon": {
-      "AK47": {
-        "Default AK47": {
-          "uniqueid": "defaultak47cw",
-          "viewmodel": "weapons/models/ak47/weapon_rif_ak47.vmdl",
-          "worldmodel": "",
-          "type": "customweapon",
-          "weapon": "weapon_ak47",
-          "price": "1000",
-          "slot": "1"
-        }
-      }
-    },
-    "Pet": {
-      "Chicken": {
-        "uniqueid": "mychicken",
-        "model": "models/chicken/chicken.vmdl",
-        "type": "equipment",
-        "price": "1000",
-        "slot": "1"
-      }
-    },
-    "Tags": {
-      "Chat Color": {
-        "Red": {
-          "uniqueid": "chatcolorred",
-          "value": "{Red}",
-          "type": "chatcolor",
-          "price": "1000",
-          "slot": "1"
-        }
-      },
-      "Name Color": {
-        "Red": {
-          "uniqueid": "ncred",
-          "value": "{Red}",
-          "type": "namecolor",
-          "price": "1000",
-          "slot": "1"
-        }
-      },
-      "Score Tag": {
-        "King": {
-          "uniqueid": "stking",
-          "value": "King",
-          "pre": "false",
-          "type": "scoretag",
-          "price": "1000",
-          "slot": "1"
-        }
-      },
-      "Chat Tag": {
-        "Queen": {
-          "uniqueid": "ctqueen",
-          "value": "Queen",
-          "pre": "false",
-          "color": "{red}",
-          "type": "chattag",
-          "price": "1000",
-          "slot": "1"
-        }
-      }
+    "[ROOT] Access Tests": {
+      "flag": "@css/root"
     }
   }
 }

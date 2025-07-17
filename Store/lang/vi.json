@@ -1,0 +1,63 @@
+{
+  "No matching client": "{white}Không tìm thấy người chơi phù hợp",
+  "More than one client matched": "{white}Có nhiều hơn một người chơi phù hợp",
+  "Must be an integer": "{white}Giá trị bạn nhập phải là số nguyên",
+  "Must be higher than zero": "{white}Giá trị bạn nhập phải lớn hơn 0",
+  "Must be a steamid": "{white}Giá trị bạn nhập phải là steamid hợp lệ",
+  "No credits enough": "{white}Bạn không có đủ credits",
+  "You are not alive": "{white}Bạn chỉ có thể mua khi còn sống",
+  "You are alive": "{white}Bạn chỉ có thể mua khi đã chết",
+  "No in pistol round": "{white}Bạn không thể mua vật phẩm {green}{0} {white}trong vòng súng lục",
+  "No gift yourself": "{white}Bạn không thể tặng credits cho chính mình",
+  "No type found": "{white}Không tìm thấy loại. {red}{0}",
+  "Gift timeout": "{white}Bạn cần đợi {green}{0} giây {white}để tặng",
+  "No purchase because team": "{white}Bạn không thể mua vật phẩm này. Bạn cần ở team {red}{0}",
+  "No equip because team": "{white}Bạn không thể trang bị vật phẩm này. Bạn cần ở team {red}{0}",
+  "You need correct weapon": "{white}Bạn cần {red}{0} {white}để kiểm tra",
+  "Players' credits are refreshed": "Credits của người chơi đã được làm mới",
+
+  "t team players": "Người chơi team {green}khủng bố",
+  "ct team players": "Người chơi team {green}chống khủng bố",
+  "alive players": "Người chơi {green}còn sống",
+  "all players": "{green}Tất cả {white}người chơi",
+  "dead players": "Người chơi {green}đã chết",
+  "Console": "Bảng điều khiển",
+
+  "Purchase Succeeded": "{white}Bạn đã mua {green}{0}{white}",
+  "Purchase Equip": "{white}Bạn đã trang bị {green}{0}{white}",
+  "Purchase Unequip": "{white}Bạn đã tháo {green}{0}{white}",
+  "Item Sell": "{white}Bạn đã bán {green}{0}{white}",
+  "Godmode expired": "{white}Thời gian bất tử của bạn đã hết",
+  "Speed expired": "{white}Thời gian tăng tốc của bạn đã hết",
+  "Hidetrails off": "{white}Bây giờ bạn có thể thấy vệt đạn",
+  "Hidetrails on": "{white}Bây giờ bạn không thể thấy vệt đạn",
+
+  "menu_store<title>": "Cửa hàng [Credits của bạn: {0}]",
+
+  "menu_store<all_title>": "Trang phục chung",
+  "menu_store<t_title>": "Trang phục T",
+  "menu_store<ct_title>": "Trang phục CT",
+  "menu_store<purchase>": "{0} - [{1}]",
+  "menu_store<purchase1>": "{0}",
+  "menu_store<equip>": "TRANG BỊ",
+  "menu_store<unequip>": "THÁO",
+  "menu_store<sell>": "BÁN [{0}]",
+  "menu_store<confirm_title>": "Xác nhận mua?",
+  "menu_store<yes>": "Có",
+  "menu_store<no>": "Không",
+  "menu_store<confirm_item>": "{0} - {1} credits",
+  "menu_store<inspect>": "Xem trước",
+
+  "css_credits": "{white}Bạn có {green}{0} {white}credits",
+  "css_givecredits<player>": "{blue}{0} {white}đã cho {green}{1} {green}{2} credits",
+  "css_givecredits<steamid>": "{blue}{0} {white}đã cho {green}{1} {green}{2} credits",
+  "css_givecredits<multiple>": "{blue}{0} {white}đã cho {green}{1} {green}{2} credits",
+
+  "css_gift<player>": "{white}Bạn đã gửi {green}{1}{white}credits cho {blue}{0}",
+  "css_gift<target>": "{blue}{0} {white}đã gửi cho bạn {green}{1} {white}credits",
+
+  "css_reset": "{blue}{0}{white} đã reset dữ liệu cửa hàng của {green}{1}",
+
+  "css_model0": "{blue}{0}{white} đã bật chế độ bắt buộc mẫu người chơi mặc định",
+  "css_model1": "{blue}{0}{white} đã tắt chế độ bắt buộc mẫu người chơi mặc định"
+}
