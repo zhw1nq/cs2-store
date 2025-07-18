@@ -4,6 +4,15 @@ namespace Store.Extension;
 
 public static class JsonExtensions
 {
+    /// <summary>
+    /// Default JsonDocumentOptions for parsing JSONC files (with comments and trailing commas)
+    /// </summary>
+    public static readonly JsonDocumentOptions JsoncOptions = new()
+    {
+        CommentHandling = JsonCommentHandling.Skip,
+        AllowTrailingCommas = true
+    };
+
     public static bool IsValueKindObject(this JsonValueKind valueKind)
     {
         return valueKind == JsonValueKind.Object;
